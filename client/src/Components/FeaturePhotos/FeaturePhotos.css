@@ -1,0 +1,59 @@
+.gal{
+    width: 100%;
+    height: 11rem;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.gallery{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-position: 50% 50%;
+    object-fit: cover;
+    z-index: 300;
+}
+.No_images{
+    width: 100%;
+    height: 3rem;
+}
+.ftr_mdl_container{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    margin: 0 auto;
+}
+@media (min-width: 500px){
+    .gal{
+        width: 100%;
+        height: 9.5rem;
+    }
+    .ftr_mdl_container{
+        height: 100%;
+        padding: 8px;
+    }
+}
+@media (max-width: 320px){
+    .gal{
+        width: 100%;
+        height: 8rem;
+    }
+    
+}
+.ftr_mdl_body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: unset;
+}
+.add_photo{
+    font-size: 3rem;
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;
+    width: 220px;
+    cursor: pointer;
+}

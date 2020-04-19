@@ -1,0 +1,59 @@
+
+.profile{
+    margin: 0 auto;
+    margin-top: .5em;
+}
+
+.img {
+    position: relative;
+    object-position: 50% 50%;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid  white;
+    z-index: 300;
+}
+
+.input-range {
+    height: 1rem;
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.input-range__track--active {
+    background: red;
+}
+.input-range__slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: red;
+    border: 1px solid #f52828eb;
+}
+.input-range__track--background {
+    left: 0;
+    margin-top: -0.15rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-range__label-container {
+    left: -50%;
+    position: relative;
+    display: none;
+    z-index: 200;
+}
+.icon{
+    color: #b1afaf;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.profile-info{
+    transition: all .5s ease-in-out;
+    /* animation: slide 0.5s ease-in-out; */
+}

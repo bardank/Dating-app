@@ -1,0 +1,29 @@
+.centerAlign{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    position: absolute;
+}
+.activeLink svg{
+    color: #ffe002fc
+}
+.swipeBody{
+    height: 100%;
+    width: 100%;
+    /* margin-top: 1rem; */
+    
+}
+.navIcon{
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.topBar{
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 2px 2px 8px 0px #61198ec7  ; 
+    width: 100%;
+    position: sticky;
+}

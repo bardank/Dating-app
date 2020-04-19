@@ -1,0 +1,41 @@
+.sidebar{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.mainScroll{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow-y: unset;
+    overflow-x: hidden;
+}
+@media (min-width: 768px) {
+    .sidebar{
+        /* -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%; */
+        min-width: 320px; 
+        max-width: 370px;
+    }
+    .main {
+        /* -ms-flex: 0 0 75%; 
+        flex: 0 0 75%; */
+        width: auto;
+        /* max-width: calc(100vh - 370px);  */
+    }
+    
+}

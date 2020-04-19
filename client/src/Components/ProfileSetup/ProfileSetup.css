@@ -1,0 +1,48 @@
+.profile-setup{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.imgUpload {
+    position: relative;
+    object-position: 50% 50%;
+    width: 18rem;
+    height: 18rem;
+    box-shadow: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid  white;
+    background-color: #cac4c4;
+    z-index: 100;
+}
+.imgUpload:active{
+    border: none;
+}
+.wrapper{
+    position: relative;
+}
+
+.ico {
+    position: absolute;
+    /* text-align: center; */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20vmin;
+    font-size: 3rem;
+    z-index: 200;
+}
+.input-bg{
+    background: #131517;
+    border-radius: 4px;
+}
+.input-bg:focus{
+    background: #131517;
+    border-radius: 4px;
+}
+.block-bg{
+    background: black;
+    border: 1px solid #4a4a4a;
+    border-radius: 6px;
+}

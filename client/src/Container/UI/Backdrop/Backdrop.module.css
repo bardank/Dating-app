@@ -1,0 +1,10 @@
+.Backdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 600;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    backdrop-filter: blur(25px);
+}

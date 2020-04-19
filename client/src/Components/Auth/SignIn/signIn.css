@@ -1,0 +1,29 @@
+.signinForm {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 15px 30px 15px;
+    border-radius: 3%;
+    margin: 0 auto;
+    z-index: 300;
+    box-sizing: border-box;
+    border: 1px solid #bfbcbc70;
+    box-shadow: 2px 3px #6d6a6a5c;
+}
+.select{
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+}
+/* .signup {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-signup:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+  } */

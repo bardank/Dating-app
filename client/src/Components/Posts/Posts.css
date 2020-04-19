@@ -1,0 +1,144 @@
+.postsTab{
+    margin: 0 auto;
+    width: 100%;
+    height: calc(100% - 3rem );
+    overflow-y: unset;
+    overflow-x: hidden;
+}
+.post{
+    margin: 0 auto;
+    width: 98%;
+}
+.poster{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    object-position: 50% 50%;
+    object-fit: cover;
+
+}
+.post-header{
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+.post-caption{
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+.post-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.post-footer{
+    width: 100%;
+    height: 2.8rem;
+    background-color: black;
+    border-top: 1px solid black;
+    border-bottom-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+.postImg-Container{
+    width: 100%;
+    height: 120vmin;
+}
+.postImg{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-position: 50% 50%;
+    object-fit: cover;
+    background-size: cover;
+}
+.newPost-icon{
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    background-color: #abaaaa;
+    align-items: center;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.postLike{
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;
+}
+.bPostLike{
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+.bPostLike path {
+    stroke: black;
+    stroke-width: 30;
+}
+.feather{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em; 
+    color: #795514;
+    font-size: 2rem;
+}
+
+.comment{
+    height: 2.1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    color: white;
+    background-color:black;
+    background-clip: padding-box;
+    border: none;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.comment:focus{
+    border: 1px solid black;
+    background-color: black;
+}
+.f2{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .post{
+        margin: 0 auto;
+        position: relative;
+        min-width: 385px;
+        max-width: 45%;
+        /* box-shadow: 2px 3px 10px 0px #d2cbcbc7; */
+    }
+    .postImg-Container{
+        width: 100%;
+        height: 85vmin;
+    }
+    
+}
+@media (min-width: 600px) {
+    .postImg-Container{
+        width: 100%;
+        height: 80vmin;
+    }
+    
+}
+.reportOptns h5{
+    cursor: pointer;
+}
+.triple_dots:after {
+    content: '\2807';
+    font-size: 2rem;
+    float: right;
+    color: white;
+    cursor: pointer;
+}

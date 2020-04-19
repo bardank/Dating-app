@@ -1,0 +1,8 @@
+.fullPageMain{
+    margin: 0 auto;
+    width: 100%;
+    height: calc(100%);
+    /* padding-bottom: 5rem; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

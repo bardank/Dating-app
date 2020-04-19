@@ -1,0 +1,51 @@
+.matchBox{
+    height: 10rem;
+    border: 0.1rem solid #0b51ad;
+    border-radius: 8px;
+    width: 95%;
+}
+@media (min-width: 500px) {
+    .matchBox{
+        height: 10rem;
+        border: 0.1rem solid #0b51ad;
+    }
+}
+.profileIcon-msg{
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  cursor: pointer;
+}
+.matchImg {
+    width: 100%;
+    position: relative;
+    object-position: 50% 50%;
+    height: 100%;
+    padding: .2rem;
+    background-position: center center;
+    cursor: pointer;
+    border-radius: 5px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: inline;
+}
+.match-info{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+
+}
+
+/* .dots:after {
+    content: '\2807';
+    color: white;
+    z-index: 1;
+    font-size: 2rem;
+    position: fixed;
+    cursor: pointer;
+} */

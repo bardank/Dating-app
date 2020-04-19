@@ -1,0 +1,29 @@
+.fade {
+    background-color: rgba(24, 25, 25, 0.79);
+    transition: opacity 0.5s linear;
+}
+.modalImage{
+    position: relative;
+    margin: 0 auto;
+    object-position: 50% 50%;
+    width: 22rem;
+    height: 20rem;
+    padding: .2rem;
+    border-radius: 5px;
+    image-orientation: from-image;
+    object-fit: cover;
+    text-align: center;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* width: 35rem; */
+    /* height: 30rem; */
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}

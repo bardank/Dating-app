@@ -1,0 +1,40 @@
+.Notification-container{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.Notificaton-item{
+    width: 100%;
+    height: 4rem;
+    vertical-align: baseline;
+}
+.Notificaton-item div{
+    width: 100%;
+    height: 4rem;
+    vertical-align: baseline;
+}
+.notification-img{
+    position: relative;
+    object-position: 50% 50%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2px;
+    object-fit: cover;
+    z-index: 300;
+}
+.Notificaton-item .text {
+    margin-left: 12px;
+    width: 90%;
+  }
+  .Notificaton-item .text h6 {
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .Notificaton-item .text p {
+    margin: 0;
+  }
+  .Notificaton-item .time {
+    color: grey;
+    width: 8rem;
+  }

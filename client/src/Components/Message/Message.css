@@ -1,0 +1,62 @@
+.messagelist{
+    width: 100%;
+    height: 100%;
+    background-color: #131517;
+}
+.messageRoom{
+    color: none;
+}
+.messageRoom:hover, .messageRoom:active, .messageRoom:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active, a:link {
+  color: gray;
+  text-decoration: none;
+}
+.messageItem{
+    height: 4rem;
+    width: 100%;
+    /* background-color: #131517; */
+}
+.friend-drawer {
+    padding: 10px 15px;
+    display: flex;
+    vertical-align: baseline;
+    transition: 0.3s ease;
+    height: 4rem;
+    overflow: hidden;
+}
+  
+  .friend-drawer .text {
+    margin-left: 12px;
+    width: 70%;
+  }
+  .friend-drawer .text h6 {
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .friend-drawer .text p {
+    margin: 0;
+  }
+  .friend-drawer .time {
+    color: grey;
+    height: 2rem;
+    width: 9rem;
+  }
+  .friend-drawer--onhover:hover {
+    background: black;
+    cursor: pointer;
+  }
+  .friend-drawer--onhover:hover p, .friend-drawer--onhover:hover h6, .friend-drawer--onhover:hover .time {
+    color: #fff !important;
+  }
+  
+  .badge{
+      color: red;
+  }
+
+  .black{
+    background-color: black;
+  }

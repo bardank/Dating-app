@@ -1,0 +1,63 @@
+.cmt_mdl_bcdrp {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 600;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    background-color: #000000db;
+}
+.cmt_mdl {
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 98vw;
+    height: 95%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    bottom: 5px;
+    top: 5px;
+    border-radius: .4rem;
+    color: white;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media (min-width: 500px) {
+    .cmt_mdl {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+@media (min-width: 400px) {
+    .cmt_mdl {
+        width: 390px;
+        left: calc(50% - 200px);
+    }
+}
+@media (min-width: 700px) {
+    .cmt_mdl {
+        width: 50%;
+        left: calc(50% - 250px);
+    }
+}
+@media (min-width: 1000px) {
+    .cmt_mdl {
+        width: 37%;
+        left: calc(50% - 250px);
+    }
+}
+@media (min-width: 1200px) {
+    .cmt_mdl {
+        width: 34%;
+        left: calc(50% - 250px);
+    }
+}
+@media (min-width: 2000px) {
+    .cmt_mdl {
+        width: 40%;
+        left: calc(50% - 400px);
+    }
+}

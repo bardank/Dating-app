@@ -1,0 +1,182 @@
+.cardboard{
+    margin: 0 auto;
+}
+@media (max-width: 768px){
+
+    .cardboard{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        height: 667px;
+        max-height: calc(100vh - 99px);
+        display: block;
+        margin: 0 auto;
+        border-radius: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+           
+    }
+}
+.cardContainer{
+    height: 100%;
+    width: 95%;
+    max-height: calc(100% - 30px - 70px);
+    margin: 0 auto;
+    perspective: 1000px;
+    position: relative;
+    display: block;
+    border-radius: 8px;
+}
+.swipe-card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.shadow3 {
+    box-shadow: 2px 3px 10px 0px #d2cbcbc7;
+
+}
+
+
+.swipeCards{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 200;
+    object-fit: cover;
+    
+}
+.card-info{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin: 0 auto;
+
+}
+.card-info h1 {
+   
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.swipeController{
+    font-size: 2rem;
+}
+.controller{
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    box-shadow: 1px 3px 4px #ea8282c7;
+}
+.heart{
+    cursor: pointer;
+    font-size: 2rem;
+    color: #0089ff;
+    /* color: #d20707fc; */
+    margin: 0 auto;
+}
+
+.times{
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 auto;
+    color: red;
+}
+.reload{
+    cursor: pointer;
+    font-size: 2rem;
+    color: #b6b7b0;
+}
+.icon-bg{
+    background-color: white;
+    align-items: center;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-position: 50% 50%;
+    image-orientation: from-image;
+    border-radius: 5px;
+    object-fit: cover;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .cardboard{
+        
+        width: 100%;
+        max-width: 375px;
+        height: 667px;
+        max-height: calc(100vh - 110px);
+        display: block;
+        border-radius: 8px;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .cardContainer{
+        height: 100%;
+        width: 100%;
+        max-height: calc(100% - 30px - 70px);
+        margin: 0 auto;
+        perspective: 1000px;
+        position: relative;
+        display: block;
+        border-radius: 8px;
+    }
+}
+@media (min-width : 1440px){
+
+    .cardboard{
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.carousel {
+    position: relative;
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    top:0;
+    /* bottom: 0; */
+    left: 0;
+    z-index: 17;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}

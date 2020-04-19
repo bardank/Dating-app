@@ -1,0 +1,52 @@
+.desktopNav{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+   
+}
+.profileLogo{
+    position: relative;
+    object-position: 50% 50%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.1rem solid white;
+    z-index: 300;
+    cursor: pointer;
+}
+.matches{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.matchBar{
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.activeMatch{
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    color: yellow;
+}
+.activeMatch .navIcon{
+    color: yellow;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.matchBar_item{
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+}
+.matchBar_body{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
